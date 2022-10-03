@@ -40,8 +40,18 @@ public class ChatBot {
         return num1 + num2 + num3;
     }
 
+    // method that asks for favorite color
+    public String favColor() {
+        return ("My favorite color is yellow!");}
+
+    // method that tells bot's fav subject
+    public void favoriteSubject() {
+        System.out.println("Since I am a computer, my favorite subject is Comp sci!"); }
+
     // method that RETURNS a goodbye message as a String -- note there is no printing here!
     public String goodbye() {
         return "It was nice talking with you! Have a great day! Sincerely, " + name;
     }
-}
+
+
+    }
